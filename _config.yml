@@ -1,11 +1,11 @@
 title: 天上人间
 subtitle: ''
-description: ''
+description: 随便瞎bb
 keywords: null
-author: John Doe
-language: en
+author: Renjian
+language: zh-CN
 timezone: ''
-url: http://example.com
+url: https://renjian2333.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -62,4 +62,6 @@ ignore: null
 theme: icarus
 
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:renjian2333/renjian2333.github.io.git
+  branch: main
