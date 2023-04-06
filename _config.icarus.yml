@@ -113,13 +113,11 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        Follow me on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/renjian2333
 # Page footer configurations
 footer:
-    # Copyright text
-    copyright: © 2019
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -217,11 +215,11 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -231,7 +229,7 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: enjian
+        author: renjian
         # Author title
         author_title: 软件工程本科生在读
         # Author's current location
@@ -245,24 +243,24 @@ widgets:
         # URL or path for the follow button
         follow_link: https://github.com/renjian2333
         # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/renjian2333
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            # Twitter:
-            #     icon: fab fa-twitter
-            #     url: https://twitter.com
-            WeChat:
-                icon: fas fa-comments
-                url: /img/avatar.jpg
+        # social_links:
+        #     Github:
+        #         icon: fab fa-github
+        #         url: https://github.com/renjian2333
+        #     Facebook:
+        #         icon: fab fa-facebook
+        #         url: https://facebook.com
+        #     # Twitter:
+        #     #     icon: fab fa-twitter
+        #     #     url: https://twitter.com
+        #     WeChat:
+        #         icon: fas fa-comments
+        #         url: /img/avatar.jpg
 
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: toc
         # Whether to show the index of each heading
         index: true
@@ -271,18 +269,18 @@ widgets:
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         Hexo: https://hexo.io
+    #         Bulma: https://bulma.io
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: categories
     # Recent posts widget configurations
     -
@@ -292,7 +290,7 @@ widgets:
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: archives
     # Tags widget configurations
     -
@@ -334,9 +332,11 @@ plugins:
     back_to_top: true
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
+    baidu_analytics:
+        tracking_id: f0d8763654f064f55fc58b440dc02618
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:

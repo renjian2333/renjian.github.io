@@ -1,0 +1,22 @@
+widgets:
+  - type: profile
+    position: left
+    author: renjian
+    author_title: 软件工程本科生在读
+    location: Shanghai
+    avatar: /img/avatar.jpg
+    avatar_rounded: true
+    gravatar: false
+    follow_link: https://github.com/renjian2333
+  - type: toc
+    position: left 
+    index: true
+    collapsed: true
+    depth: 3
+  - type: recent_posts
+    position: left
+  - type: tags
+    position: left
+    order_by: name
+    amount: 
+    show_count: true

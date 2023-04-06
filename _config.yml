@@ -64,4 +64,4 @@ theme: icarus
 deploy:
   type: git
   repository: git@github.com:renjian2333/renjian2333.github.io.git
-  branch: main
+  branch: deploy
