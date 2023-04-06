@@ -5,7 +5,7 @@ media_folder: source/images
 public_folder: /images
 collections:
   - name: all_posts
-    fields:
+    fields: &ref_0
       - label: Title
         name: title
         widget: string
@@ -45,4 +45,10 @@ collections:
   - label: Page
     name: pages
     delete: false
-    files: []
+    files:
+      - name: about-index.html
+        label: ''
+        file: source\about\index.html
+        editor:
+          preview: true
+        fields: *ref_0
